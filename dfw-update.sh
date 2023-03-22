@@ -1,8 +1,10 @@
 #!/bin/bash
 
 NSXUSER='youruserhere'
-NSXPASS='yourpasswordhere'
-NSXMAN='your nsx manager here'
+#NSXPASS='yourpasswordhere'
+NSXMAN='yournsxmanagerhere'
+
+read -s -p "Password: " NSXPASS
 
 #txt files cleanup
 
